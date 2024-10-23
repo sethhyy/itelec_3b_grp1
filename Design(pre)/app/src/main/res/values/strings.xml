@@ -1,0 +1,22 @@
+<resources>
+    <!-- Other strings -->
+
+    <!-- Barangay List -->
+    <string-array name="barangay_list">
+        <item>Barangay 1</item>
+        <item>Barangay 2</item>
+        <item>Barangay 3</item>
+        <item>Barangay 4</item>
+        <item>Barangay 5</item>
+        <!-- Add more barangays as needed -->
+    </string-array>
+
+    <!-- Emergency Departments List -->
+    <string-array name="emergency_departments_list">
+        <item>Fire Department</item>
+        <item>Police Station</item>
+        <item>Ambulance</item>
+        <item>Coast Guard</item>
+        <!-- Add more departments as needed -->
+    </string-array>
+</resources>
