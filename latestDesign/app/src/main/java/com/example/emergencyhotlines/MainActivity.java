@@ -23,7 +23,22 @@ public class MainActivity extends AppCompatActivity {
         Button btnCall = findViewById(R.id.btn_call);
 
 
-        String[] barangays = new String[]{"Barangay 1", "Barangay 2", "Barangay 3"};
+        String[] barangays = new String[]{
+                "Anilao Proper", "Anilao-Labac", "Antipolo Del Norte", "Antipolo Del Sur",
+                "Bagong Pook", "Balintawak", "Banaybanay", "Bolbok", "Bugtong na Pulo", "Bulacnin",
+                "Calamias", "Cumba", "Dagatan", "Duhatan", "Halang", "Inosluban", "Kayumanggi", "Latag",
+                "Lodlod", "Lumbang", "Mabini", "Malagonlong", "Malitlit", "Marauoy", "Mataas na Lupa",
+                "Pagolingin Bata", "Pagolingin East", "Pagolingin West", "Pangao", "Pinagtongulan",
+                "Plaridel", "Poblacion Barangay 1", "Poblacion Barangay 2", "Poblacion Barangay 3",
+                "Poblacion Barangay 4", "Poblacion Barangay 5", "Poblacion Barangay 6", "Poblacion Barangay 7",
+                "Poblacion Barangay 8", "Poblacion Barangay 9", "Poblacion Barangay 10", "Poblacion Barangay 11",
+                "Poblacion Barangay 12", "Poblacion Barangay 13", "Poblacion Barangay 14", "Poblacion Barangay 15",
+                "Poblacion Barangay 16", "Poblacion Barangay 17", "Poblacion Barangay 18", "Poblacion Barangay 19",
+                "Poblacion Barangay 20", "Poblacion Barangay 21", "Poblacion Barangay 22", "Pusil", "Quezon",
+                "Rizal", "Sabang", "Sampaguita", "San Benito", "San Carlos", "San Celestino", "San Francisco",
+                "San Guillermo", "San Jose", "San Lucas", "San Salvador", "Santo Niño", "Sapac", "Sico",
+                "Talisay", "Tambo", "Tangob", "Tanguay", "Tibig"
+        };
 
         String[] emergencyDepartments = new String[]{"Fire Department", "Police Department", "Medical Emergency"};
 
