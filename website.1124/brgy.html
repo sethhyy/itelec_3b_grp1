@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;800&display=swap" rel="stylesheet">
+    <script src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <title>Emergency Hotline</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="web.html"><img src="images/logo.jpg" alt="Lipa City Emergency Hotline Logo"></a>
+            <div class="nav-links">
+                <ul>
+                    <li><a href="web.html">Home</a></li>
+                    <li><a href="brgy.html">Barangay</a></li>
+                    <li><a href="aboutus.html">About Us</a></li>
+                    <li><a href="#contact-section">Contact Us</a></li>
+                </ul>
+            </div>
+
+            <div class="filter-container">
+                <button id="filterMenu" class="filter-button">
+                    <ion-icon name="menu"></ion-icon>
+                </button>
+            </div>
+        </nav>
+    </header>
+    <section class="brgy-section">
+        <div class="brgy-container">
+                <div class="document-list">
+                    <ol>
+                        <li>Antipolo del Norte</li>
+                        <li>Antipolo del Sur</li>
+                        <li>Bagong Pook</li>
+                        <li>Banay-Banay</li>
+                        <li>Balintawak</li>
+                        <li>Bantilan</li>
+                        <li>Banlic</li>
+                        <li>Bayang Luma</li>
+                        <li>Biga</li>
+                        <li>Bolbok</li>
+                        <li>Cumba</li>
+                        <li>Dagatan</li>
+                        <li>Dela Paz</li>
+                        <li>Lamao</li>
+                        <li>Lipa Proper</li>
+                        <li>Malitlit</li>
+                        <li>Mayangna</li>
+                        <li>Mataas na Kahoy</li>
+                        <li>Mayapa</li>
+                        <li>Pantal</li>
+                        <li>San Antonio</li>
+                        <li>San Carlos</li>
+                        <li>San José</li>
+                        <li>San Juan</li>  
+                        <li>San Luis</li>
+                        <li>San Miguel</li>
+                        <li>San Nicolás</li>
+                        <li>San Pedro</li>
+                        <li>San Rafael</li>
+                        <li>San Roque</li>
+                        <li>San Sebastian</li>
+                        <li>Santa Clara</li>
+                        <li>Santa Cruz</li>
+                        <li>Santa Isabel</li>
+                        <li>Santa Maria</li>
+                        <li>Santa Rosa</li>
+                        <li>Santa Teresita</li>
+                        <li>Santo Niño</li>
+                        <li>Santo Tomas</li>
+                        <li>Santo Tomas del Norte</li>
+                        <li>Santo Tomas del Sur</li>
+                    </ol>
+                </div>                
+        </div>
+        </section>
+        <section id="contact-section" class="contact-section">
+            <h1>Contact Us</h1>
+            <p>If you need assistance, don’t hesitate to contact us.</p>
+            
+            <div class="contact-info">
+                <div class="contact-box">
+                    <ion-icon name="call" class="contact-icon" aria-label="Call Icon"></ion-icon>
+                    <h2>Emergency Hotline Numbers</h2>
+                    <p><strong>Fire Department:</strong> (555) 123-4567</p>
+                    <p><strong>Police Department:</strong> (555) 987-6543</p>
+                    <p><strong>Medical Assistance:</strong> (555) 678-9101</p>
+                </div>
+                
+                <div class="contact-box">
+                    <ion-icon name="mail" class="contact-icon" aria-label="Email Icon"></ion-icon>
+                    <h2>Email Us</h2>
+                    <p>For non-emergency inquiries or additional information, you can email us at:</p>
+                    <p><a href="mailto:info@emergencylipa.com">info@emergencylipa.com</a></p>
+                </div>
+        
+                <div class="contact-box">
+                    <ion-icon name="location" class="contact-icon" aria-label="Location Icon"></ion-icon>
+                    <h2>Visit Us</h2>
+                    <p>Lipa City Emergency Office</p>
+                    <p>123 Safety St, Lipa City, Philippines</p>
+                </div>
+            </div>
+        </section>
+    <script>
+        document.getElementById('filterMenu').addEventListener('click', function() {
+            alert('Filter menu clicked!');
+        });
+    </script>
+</body>
+<footer class="footer">
+    <div class="footer-bottom">
+        <div class="footer-rights">
+            <p>&copy; 2024 All rights reserved</p>
+        </div>
+    </div>
+</footer>
+</html>

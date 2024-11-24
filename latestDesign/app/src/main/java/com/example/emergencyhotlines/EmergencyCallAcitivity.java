@@ -12,10 +12,10 @@ public class EmergencyCallAcitivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_emergency_call);
 
-        // Get the intent that started this activity
+
         Intent intent = getIntent();
 
-        // Retrieve the selected barangay and emergency department
+
         String selectedBarangay = intent.getStringExtra("selected_barangay");
         String selectedDepartment = intent.getStringExtra("selected_department");
 
